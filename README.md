@@ -2,7 +2,7 @@
 Simple Alexa skill that connects to my capstone using a AWS Lambda function and Node.js 
 I will make a blog post and a video soon. This is mainly for Arun.
 
-Intent Schema
+#Intent Schema
 
 ```{
   "intents": [
@@ -30,9 +30,9 @@ Intent Schema
   ]
 }```
 
-Custom Slot Types (optional) 
+#Custom Slot Types (optional) 
 
-Type : LIST_OF_CATEGORIES
+#Type : LIST_OF_CATEGORIES
 
 ```Events
 Wi-Fi
@@ -44,7 +44,7 @@ Water Fountains
 Other```
 
 
-Sample Utterances
+#Sample Utterances
 
 ```GetEvents free things around me
 GetEvents free things around
@@ -58,11 +58,11 @@ GetEventsDate things to do {Date}
 GetEventsCategory free {Category} around me
 GetEventsCategory nearby {Category}```
 
-Actual Function Code
+#Actual Function Code
 
-Code entry type: Edit code inline
-Runtime: Node.js 4.3
-HandlerInfo: index.handler
+#Code entry type: Edit code inline
+#Runtime: Node.js 4.3
+##HandlerInfo: index.handler
 
 ```var https = require('https');
 
